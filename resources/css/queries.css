@@ -1,0 +1,52 @@
+/* Media Queries for responsive design */
+/* Tablets in landscape and small monitors mode from 1024 - 1200 */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+
+  /* Tablets in portrait mode from 768 - 1023 */
+  @media only screen and (max-width: 1023px) {
+    body {
+      font-size: 18px;
+    }
+
+    section {
+      padding: 60px 0;
+    }
+
+    .long-copy {
+      margin-left: 10%;
+    }
+
+    .steps-box {
+      margin-top: 10px;
+    }
+
+    .works-steps {
+      margin-bottom: 40px;
+    }
+
+    .works-step:last-of-type {
+      margin-bottom: 80px;
+    }
+
+    .app-screen{width:50%;}
+
+    .icon-small{width:20px;}
+    .city-feature{font-size: 90%;}
+    .plan-price{font-size: 250%;}
+
+    .contact-form{width:80%;}
+  }
+
+  /* Medium phones from 481 - 767 */
+  @media only screen and (max-width: 767px) {}
+
+  /* Small phones from 0 - 480px */
+  @media only screen and (max-width: 480px) {}
